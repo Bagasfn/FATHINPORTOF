@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link rel="stylesheet" href="framework/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="#">Fathin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link active" href="#header">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+     <!-- HEADER -->
+      <section class="header-section" id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                    <p class="text-orange fw-semibold">Bagas Fathin Nugraha</p>
+                    <h1 class="header-title text-uppercase fw-bold mb-5">
+                        GRAPHIC DESAINER AND <br class="d-none d-md-block"/>
+                        FOTOGRAFER
+                    </h1>
+
+                    <p class="text-dark text-justify">
+  Lahir di Medan, Sumatera Utara, pada tanggal 16 Maret 2005, saya dibesarkan dengan semangat pantang menyerah. 
+  Sejak kecil, saya memiliki tekad kuat untuk mencari kehidupan yang lebih baik. Moto hidup saya, 
+  "Everything happens for a reason", selalu memotivasi saya untuk terus melangkah maju dan belajar dari setiap pengalaman.
+  Memenuhi mimpi, saya hijrah ke Bandung, kota yang penuh peluang dan inspirasi. Di kota ini, saya menempuh pendidikan S1 
+  di Universitas Pendidikan Indonesia, jurusan Pendidikan Multimedia. Pilihan jurusan ini mencerminkan kecintaan saya 
+  pada dunia digital dan teknologi, serta hasrat saya untuk berbagi ilmu dan menginspirasi generasi muda.
+</p>
+                
+                <div class="d-flex align-items-center gap-4 mt-5">
+                  <div class="d-flex align-items-center gap-2">
+                    <h2 class="header-skill fw-bold mb-0">10+</h2>
+                    <p class="text-secondary fs-7 mb-0">Years of <br>Experience</p>
+                  </div>
+                  <div class="d-flex align-items-center gap-2">
+                    <h2 class="header-skill fw-bold mb-0">100</h2>
+                    <p class="text-secondary fs-7 mb-0">Happy <br>Customers</p>
+                  </div>
+                </div>
+                </div>
+                <div class="col-md-5">
+                  <img src="image/Header.png" class="header-img" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <!--PORTFOLIO-->
+    <section class="portfolio-section" id="portfolio">
+      <div class="container">
+        <p class="text-orange fw-semibold">Portfolio</p>
+        <h2 class="section-tittle fw-bold mb-5">SELECT WORK</h2>
+
+        <div class="swiper portfolio-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="image/RIVAL.JPG" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Close Up Fotografi</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="image/DAUN.jpeg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Nature Fotografi</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="image/POSTER.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Desain Graphic</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="image/Wisuda Moment.jpg" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Graduation Moment</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="card-body">
+                  <img src="image/outdor.JPG" alt="" class="card-img-top rounded mb-3">
+                  <h6 class="fw-semibold">Outdoor Fotografi</h6>
+                  <a href="#" class="text-orange">Detail Portfolio</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       <div class="d-flex align-items-center justify-content-end gap-3 mt-3">
+  <button class="btn btn-light" id="prevBtn">
+    <i class="bx bx-left-arrow-alt fs-5"></i>
+  </button>
+  <button class="btn btn-light" id="nextBtn">
+    <i class="bx bx-right-arrow-alt fs-5"></i>
+  </button>
+</div>
+
+    </section>
+
+    <!--SKILLS-->
+  <section class="skills-section animate-on-scroll" id="skills">
+
+  <div class="container">
+    <div class="row align-items-center justify-content-between">
+      
+      <div class="col-md-6">
+        <p class="text-orange text-white fw-semibold">Skills</p>
+        <h2 class="section-tittle text-white fw-bold mb-5">
+          SKILLS FOTOGRAFI AND GRAPHIC DESAINER
+        </h2>
+
+        <div class="mb-4">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <p class="text-white text-uppercase fw-semibold mb-0">Fotografi</p>
+            <p class="text-white text-uppercase mb-0">80%</p>
+          </div>
+          <div class="progress" style="height: 10px; border-radius: 10px;">
+          <div class="progress-bar bg-orange" data-width="80%"></div>
+          </div>
+
+        </div>
+        <div class="mb-4">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <p class="text-white text-uppercase fw-semibold mb-0">Canva</p>
+            <p class="text-white text-uppercase mb-0">80%</p>
+          </div>
+          <div class="progress" style="height: 10px; border-radius: 10px;">
+           <div class="progress-bar bg-orange" data-width="80%"></div>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <p class="text-white text-uppercase fw-semibold mb-0">Adobe Illustrator</p>
+            <p class="text-white text-uppercase mb-0">70%</p>
+          </div>
+          <div class="progress" style="height: 10px; border-radius: 10px;">
+           <div class="progress-bar bg-orange" data-width="70%"></div>
+          </div>
+        </div>
+
+        <div class="mb-4">
+          <div class="d-flex align-items-center justify-content-between mb-2">
+            <p class="text-white text-uppercase fw-semibold mb-0">Photoshop</p>
+            <p class="text-white text-uppercase mb-0">70%</p>
+          </div>
+          <div class="progress" style="height: 10px; border-radius: 10px;">
+           <div class="progress-bar bg-orange" data-width="70%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kolom gambar -->
+      <div class="col-md-5">
+        <img src="image/skills.png" class="img-fluid" alt="Skills Image">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+     <!--CONTACT-->
+     <section class="portfolio-section" id="contact">
+  <div class="container">
+    <p class="text-orange fw-semibold">Contact</p>
+    <h2 class="section-tittle fw-bold mb-5">GET IN TOUCH</h2>
+
+    <!-- Alamat -->
+    <div class="d-flex align-items-center gap-2 mb-3">
+      <i class="bx bx-map-pin text-orange fs-5"></i>
+      <div class="mb-0">Jl. Beruang No.58 Burangrang, Kec. Lengkong, Kota Bandung, Jawa Barat 40262</div>
+    </div>
+
+    <!-- Telepon -->
+    <div class="d-flex align-items-center gap-2 mb-3">
+      <i class="bx bx-phone-call text-orange fs-5"></i>
+      <div class="mb-0">+6281216345652</div>
+    </div>
+
+    <!-- Email -->
+    <div class="d-flex align-items-center gap-2 mb-3">
+      <i class="bx bx-envelope text-orange fs-5"></i>
+      <div class="mb-0">fathinnugrahabagas@gmail.com</div>
+    </div>
+    
+  </div>
+</section>
+
+<footer class="py-4 bg-black text-white">
+  <div class="container">
+    <p class="mb-0" style="font-size: 12px;">
+      Copyright &copy; 2025 Bagas Fathin Nugraha. All Rights Reserved
+    </p>
+  </div>
+</footer>
+
+
+    <script src="framework/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+    var swiper = new Swiper(".portfolio-swiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: "#nextBtn",
+    prevEl: "#prevBtn",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    }
+  }
+});
+
+  </script>
+
+ <script>
+  // Animasi bagian dengan .animate-on-scroll
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('show');
+
+        // Jika ada progress bar, aktifkan animasi lebar
+        const progressBars = entry.target.querySelectorAll('.progress-bar');
+        progressBars.forEach(bar => {
+          const targetWidth = bar.getAttribute('data-width');
+          if (targetWidth) {
+            bar.style.width = targetWidth;
+          }
+        });
+
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.3
+  });
+
+  document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+</script>
+
+
+
+</body>
+</html>
