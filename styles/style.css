@@ -131,3 +131,11 @@ section .section-title{
 .animate-on-scroll.show .progress-bar:nth-child(2) { width: 80%; }
 .animate-on-scroll.show .progress-bar:nth-child(3) { width: 70%; }
 .animate-on-scroll.show .progress-bar:nth-child(4) { width: 70%; }
+
+.custom-navbar {
+  background-image: url('navbar.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
