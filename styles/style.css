@@ -147,11 +147,9 @@ section .section-title{
   background-position: center;
 }
 .custom-navbar .nav-link {
-    color: white; /* Ganti dengan warna yang kamu mau */
+    color: white !important;
 }
 
 .custom-navbar .nav-link:hover {
-    color: #FFD700; /* Warna saat di-hover (opsional) */
+    color: #FFD700 !important;
 }
-
-
