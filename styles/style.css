@@ -153,3 +153,8 @@ section .section-title{
 .custom-navbar .nav-link:hover {
     color: #FFD700 !important;
 }
+
+.custom-navbar .navbar-brand {
+  color: white !important;
+}
+
