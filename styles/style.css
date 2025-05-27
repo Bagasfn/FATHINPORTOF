@@ -133,7 +133,7 @@ section .section-title{
 .animate-on-scroll.show .progress-bar:nth-child(4) { width: 70%; }
 
 .custom-navbar {
-  background-image: url('navbar.png');
+  background-image: url('../image/navbar.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
