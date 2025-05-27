@@ -19,6 +19,14 @@
     box-sizing: border-box;
     font-family: 'Poopins', sans-serif;
 }
+.custom-navbar .nav-link {
+    color: white; /* Ganti dengan warna yang kamu mau */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD700; /* Warna saat di-hover (opsional) */
+}
+
 
 img{
     max-width: 100%;
